@@ -1,0 +1,28 @@
+{
+  "name": "gemini-chatbot-backend",
+  "version": "1.0.0",
+  "description": "Backend Chatbot Multimodal Gemini 2.5 Pro dengan integrasi Telegram dan REST API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "gemini",
+    "chatbot",
+    "telegram-bot",
+    "express",
+    "multimodal"
+  ],
+  "author": "Senior Software Engineer",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "latest",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
